@@ -1,0 +1,66 @@
+# Site Information
+site_name: 'Kz9 Writeups'
+site_description: 'Kz9 Writeups'
+site_author: 'Kz9'
+
+# Repo
+repo_name: 'kz9/writeups'
+repo_url: 'https://github.com/kz9/writeups'
+
+# Copyright
+copyright: 'Copyright &copy; 2019 kz9. All Rights Reserved'
+
+# Contents
+nav:
+    - About:
+        - Me and Blog: index.md
+    - HackTheBox:
+        - Lame: htb/lame/lame.md
+
+# Theme
+theme:
+    name: 'material'
+    language: 'en'
+    palette:
+        primary: 'deep purple'
+        accent: 'deep purple'
+    font:
+        text: 'Noto Sans'
+        code: 'Source Code Pro'
+    feature:
+        tabs: true
+
+# Customization
+extra:
+    social:
+        - type: 'github'
+          link: 'https://github.com/kz9'
+        - type: 'twitter'
+          link: 'https://twitter.com/taru9cat'
+        - type: 'cube'
+          link: 'https://www.hackthebox.eu/home/users/profile/155785'
+# Extensions
+markdown_extensions:
+    - admonition
+    - codehilite:
+        guess_lang: false
+    - def_list
+    - footnotes
+    - meta
+    - toc:
+        permalink: true
+    - pymdownx.arithmatex
+    - pymdownx.caret
+    - pymdownx.critic
+    - pymdownx.details
+    - pymdownx.emoji:
+        emoji_generator: !!python/name:pymdownx.emoji.to_svg
+    - pymdownx.inlinehilite
+    - pymdownx.keys
+    - pymdownx.magiclink
+    - pymdownx.mark
+    - pymdownx.smartsymbols
+    - pymdownx.superfences
+    - pymdownx.tasklist:
+        custom_checkbox: true
+    - pymdownx.tilde
