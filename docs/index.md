@@ -1,6 +1,6 @@
 # Welcome to My Blog
 
-This Blog is for my own Writeups.
+This Blog is for my own writeups and practices.
 
 ## ME: Kz9
 
